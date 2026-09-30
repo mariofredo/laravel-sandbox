@@ -1,0 +1,27 @@
+- generic [active] [ref=f3e1]:
+  - navigation [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "Laravel" [ref=f3e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f3e5]:
+        - link "Login" [ref=f3e6] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+        - link "Register" [ref=f3e7] [cursor=pointer]:
+          - /url: http://localhost:8000/register
+  - main [ref=f3e8]:
+    - generic [ref=f3e9]:
+      - heading "Log in" [level=1] [ref=f3e10]
+      - generic [ref=f3e11]:
+        - generic [ref=f3e12]:
+          - generic [ref=f3e13]: Email
+          - textbox "Email" [ref=f3e14]
+        - generic [ref=f3e15]:
+          - generic [ref=f3e16]: Password
+          - generic [ref=f3e17]:
+            - textbox "Password" [ref=f3e18]
+            - button "Show password" [ref=f3e19]
+        - button "Log in" [ref=f3e22]
+      - paragraph [ref=f3e23]:
+        - text: No account?
+        - link "Register" [ref=f3e24] [cursor=pointer]:
+          - /url: http://localhost:8000/register
